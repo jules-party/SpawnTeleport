@@ -1,0 +1,5 @@
+spawn:
+  x: 5000
+  y: 105
+  z: 5000
+  world: world

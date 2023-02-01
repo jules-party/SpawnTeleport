@@ -1,0 +1,12 @@
+name: SpawnTeleport
+version: '${project.version}'
+main: zoink.jule.spawnteleport.SpawnTeleport
+api-version: 1.16
+authors: [ jule ]
+description: Simple Spigot Plugin to Teleport Players to "Spawn"
+website: zoink.ddns.net
+commands:
+  spawn:
+    description: Teleport Player to the world main hub/spawn
+  home:
+    description: Teleport player to their spawn point
