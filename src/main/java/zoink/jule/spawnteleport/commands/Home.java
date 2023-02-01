@@ -24,7 +24,8 @@ public class Home implements CommandExecutor {
 
             if(args.length == 0) {
                 if (player.getBedSpawnLocation() == null) {
-                    playerSpawn = world.getSpawnLocation();
+                    player.sendMessage(ChatColor.RED+"You do not have a spawnpoint set!");
+                    return true;
                 } else {
                     playerSpawn = player.getBedSpawnLocation();
                 }
